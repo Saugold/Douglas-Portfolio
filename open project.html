@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href = "style.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Open Project</title>
     <style>
         body {
@@ -33,41 +39,41 @@
         
         </script>
 </head>
-<body>
-    <div class="menu" >        
+<body >
+    
+    <div class="menu" > 
+        <div class="sair">
+                <a href="projetos.html" style="color:#8B84EA;text-decoration: none;"><p style="margin-bottom:0%;width: 48px; height: 48px; margin-top: 9px;">X</p></a>
+            </div>       
         <a href="main.html"><img src=" Arquivos Site/icons/Home.png"   class="aumenta" style="width: 48px; height: 48px; margin-top: 13px; "></a>
         <a href="skills.html"><img src="Arquivos Site/icons/skills.png"  class="aumenta" style="width: 48px; height: 48px; margin-top: 13px; "></a>
         <a href="profile.html"><img src="Arquivos Site/icons/person.png"  class="aumenta" style="width: 48px; height: 48px; margin-top: 13px;"></a>
     </div>
     
     
-        <div class="projetos">
-            <div class="sair">
-                <a href="projetos.html" style="color:#8B84EA;text-decoration: none;"><p style="margin-top: 0%;margin-bottom: 0%;">X</p></a>
-            </div>
-                    <p style="  font-family: 'ThaleahFat';font-style: normal;font-weight: 500;font-size: 64px;line-height: 64px;
-                        color: #8B84EA; margin-top: 18px; margin-bottom: 10px;margin-left: 43px; ">Titulo Titulo</p>   
+        <div class="projetos" >
+                    <p class="project-title" >Titulo Titulo</p>   
                 
             <div class="info-projetos">
 
                 <div style="display: flex; flex-wrap: wrap; ">
                     <div class="aumenta">
                         <img src="Arquivos Site/icons/progress.png" style="width: 21px; height: 21px; margin-top: 10px;">
-                        <p>EM PROGRESSO</p>
+                        <p style="font-family: 'VT323';font-size: 20px; margin-top:12px ";>EM PROGRESSO</p>
                     </div>
                     <div class="aumenta">
                         <img src="Arquivos Site/icons/gear.png"  style="width: 21px; height: 21px; margin-top: 10px; margin-left: 90px">
-                        <p>HTML, CSS, Java Script</p>
+                        <p style="font-family: 'VT323';font-size: 20px; margin-top:12px ";>HTML, CSS, Java Script</p>
                     </div>
                 </div>
                 <div style="display:flex;flex-wrap: wrap;">
                     <div class="aumenta">
                         <img src="Arquivos Site/icons/timer.png"  style="width: 21px; height: 21px; margin-top: 10px; ">
-                        <p>DURAÇÃO: 10horas e 36min</p>
+                        <p style="font-family: 'VT323';font-size: 20px; margin-top:12px "; >DURAÇÃO: 10horas e 36min</p>
                     </div>
                     <div class="aumenta">
                         <img src="Arquivos Site/icons/platforms.png"  style="width: 21px; height: 21px; margin-top: 10px; margin-left: 28px;">
-                        <p>PLATAFORMA: Web</p>
+                        <p style="font-family: 'VT323';font-size: 20px; margin-top:12px ";>PLATAFORMA: Web</p>
                     </div>
                 </div>
             </div> 
@@ -75,24 +81,24 @@
             <div class="sobre">
                 <div class="gallery">
                     <figure class= "gallery__item">
-                        <a href="#foto1">
+                        <a href="Arquivos Site/images/davyjones.png" target="_blank">
                             <img src="Arquivos Site/images/davyjones.png" id="imagem" style="border-top-left-radius: 26px;" class="gallery__img" alt="Image 1">
                         </a>    
                     </figure>
                     <figure class="gallery__item">
-                        <a href="#foto2">
+                        <a href="Arquivos Site/images/download.jpg" target="_blank">
                             <img src="Arquivos Site/images/download.jpg"  id="imagem2" style="border-top-right-radius: 26px;" class="gallery__img" alt="Image 2">
                         </a>      
                     </figure>
                     
                     <figure class="gallery__item">
-                        <a href="#foto3">
+                        <a href="Arquivos Site/images/megamente.jpg" target="_blank">
                             <img src="Arquivos Site/images/megamente.jpg" id="imagem3" style="border-bottom-left-radius: 26px;" class="gallery__img" alt="Image 3">
                         </a>
                     </figure>
                    
                     <figure class="gallery__item">
-                        <a href="#foto4">
+                        <a href="Arquivos Site/images/passaro.gif" target="_blank">
                             <img src="Arquivos Site/images/passaro.gif" id = "imagem4" style="border-bottom-right-radius: 26px;" class="gallery__img" alt="Image 3">
                         </a>  
                     </figure>
@@ -105,11 +111,11 @@
             </div>  
             <div class="links">  
                 <img src="Arquivos Site/icons/github.png" id="icone-link">
-                <p>Repositório Git: <a href="https://github.com" style="color:#CBDD00">www.github.com/repositório: </a></p>
+                <p >Repositório Git: <a href="https://github.com" class="link_text">REPOSITÓRIO</a></p>
             </div>
             <div class="links">
                 <img src="Arquivos Site/icons/downloading.png" id="icone-link">
-                <p>Donwload Arquivos: <a href="www.github.com/repositório" style="color:#CBDD00">www.drive.google.com/arquivosprograma</a></p>
+                <p >Donwload Arquivos: <a href="www.github.com/repositório" class="link_text">ARQUIVOS</a></p>
             </div> 
         </div>
      
